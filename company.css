@@ -1,0 +1,72 @@
+body{
+	background-image: url(company.jpg);
+	/*background:linear-gradient(#047289,#ffa2fd);*/
+	font-family: sans-serif;
+	color:white;
+	background-size:cover;
+	background-attachment: fixed;
+	height:auto;
+}
+/*a{
+	text-decoration: none;
+	color:white;
+}*/
+fieldset{
+	width:25%;
+	margin:20px auto;
+	padding: 10px;
+	background:rgba(0,0,0,0.7);
+}
+legend{
+	border:1.5px solid white;
+	border-radius: 13px;
+	padding:5px;
+	text-align: center;
+	background: rgba(0,0,0,0.6);
+	width:35%;
+	margin:0px auto;
+	display: inline;
+
+}
+
+label{
+	padding:5px;
+	margin:10px;
+	display: block;
+}
+  input[type="text"],input[type="password"], input[type="email"], 
+ input[type="number"],input[type="tel"]{
+ 	display: block;
+ 	padding:5px;
+ 	margin:5px;
+	border:none;
+	border-bottom:1px solid white;
+	outline: none;
+	width:95%;
+	background-color: transparent;
+	cursor: text;
+}
+::-webkit-input-placeholder{
+ 		text-transform: uppercase;
+ 		font-size: 12px;
+ 		color:yellow;
+}
+select{
+	display: block;
+ 	padding:5px;
+	border:none;
+	border-bottom:1px solid black;
+	outline: none;
+	background-color: transparent;
+ }
+button,a{
+	border:1px solid #d59aea;
+	border-radius:15px;
+	display: block;
+	width:35%;
+	margin:5px auto;
+	padding: 5px;
+	background:#fda2fc;
+	cursor:pointer;
+}
+

@@ -1,0 +1,1 @@
+ margin:5px auto;padding: 5px;background:rgb(0,255,0);cursor:pointer; text-decoration: none;font-weight: bold; text-indent: 8%;" >view company</a> <a href="viewcompany.php" target="_bank"; style="border:1px solid #d59aea;border-radius:15px;display: block;width:35%;  

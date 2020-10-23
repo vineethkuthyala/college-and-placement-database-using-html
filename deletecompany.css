@@ -1,0 +1,65 @@
+body{
+	background-image: url(delete.jpg);
+    font-family: sans-serif;
+	color:white;
+	background-size:cover;
+	background-attachment: fixed;
+	height:auto;
+}
+
+
+fieldset{
+	width:20%;
+	margin:50px auto;
+	padding: 10px;
+	background:rgba(0,0,0,0.8);
+}
+legend{
+	border:1.5px solid white;
+	border-radius: 13px;
+	padding:10px;
+	text-align: center;
+	background: rgba(0,0,0,0.6);
+	width:35%;
+	font-size: 18px;
+	margin:0px auto;
+	display: inline;
+
+}
+
+label{
+	padding:10px;
+	margin:10px;
+	display: block;
+}
+ input[type="password"], input[type="text"]{
+ 	display: block;
+ 	padding:5px;
+ 	margin:10px;
+	border:none;
+	border-bottom:1px solid black;
+	outline: none;
+	width:85%;
+	background-color: transparent;
+	cursor: text;
+}
+::-webkit-input-placeholder{
+ 		text-transform: uppercase;
+ 		color:yellow;
+}
+button{
+	border:1px solid #d59aea;
+	border-radius:15px;
+	display: block;
+	width:35%;
+	margin:40px auto;
+	padding: 5px;
+	outline: none;
+	background:#fda2fc;
+	cursor:pointer;
+}
+a{
+	text-decoration: none;
+	color:white;
+	
+}

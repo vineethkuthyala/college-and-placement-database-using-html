@@ -1,0 +1,44 @@
+	
+body{
+   
+    background-image: url(viewstudent.jpg);
+   /*background:linear-gradient(#047289,#ffa2fd);*/
+    font-family: sans-serif;
+	color:white;
+	background-size:cover;
+	background-attachment: fixed;
+	height:auto;
+}
+ul {
+	background:rgba(0,0,0,0.5);
+	padding:20px;
+	text-align: center;
+
+}
+li{
+	margin:19px;
+
+	display:inline;
+	text-decoration: none;
+	padding:20px;
+}
+a{
+	
+	text-decoration: none;
+	color:black;
+}
+
+li:hover{
+	background:#047289;
+}
+
+h2{
+	color: blue;
+	text-align: center;
+	
+
+
+}
+
+
+
