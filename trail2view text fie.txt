@@ -1,0 +1,45 @@
+<?php
+
+include 'app/connect.php';
+
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="assets/login.css">
+</head>
+<body>
+	<table>
+		<tr>
+		   <th>USN</th>	
+		   <th>NAME</th>	
+		   <th>EMAIL</th>	
+		   <th>DEPARTMENT</th>	
+
+
+		</tr>
+		<?php
+		$sql = "SELECT * FROM student";
+		$stmt = $conn->prepare($sql);
+		$stmt->execute();
+		$result = $stmt->get_result();
+		while ($row = $result->fetch_assoc()) {
+			?>
+
+			<tr>
+				<td><?php echo $row['USN']; ?> </td>
+				<td><?php echo $row['NAME']; ?> </td>
+				<td><?php echo $row['EMAIL']; ?> </td>
+				<td><?php echo $row['DEPARTMENT']; ?> </td>
+
+			</tr>
+			<?php
+             }
+			?>
+
+	</table>
+
+</body>
+</html>
